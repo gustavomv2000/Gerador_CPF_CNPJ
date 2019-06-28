@@ -6,7 +6,6 @@ public class GenerateValidCNPJ {
 		
 		int[] start = new int[12];
 		int[] start2 = new int[13];
-		String primeiro;
 		String CNPJ = generateInitials();
 		
 		start = GenerateValidCPF.convertIntArray(CNPJ);
@@ -59,5 +58,4 @@ public class GenerateValidCNPJ {
 		
 		return dig;
 	}
-	
 }
